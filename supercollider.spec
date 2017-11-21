@@ -17,7 +17,7 @@ License: GPL
 Group: Applications/Multimedia
 URL: http://supercollider.sourceforge.net/
 
-Source0: SuperCollider-%{version}-%{?gitver:%{gitver}-}Source-linux.tar.bz2
+Source0: https://github.com/supercollider/supercollider/releases/download/Version-%{version}/SuperCollider-%{version}-%{?gitver:%{gitver}-}Source-linux.tar.bz2
 Patch0: supercollider-0001-fix-build-gcc-7.patch
 Patch1: supercollider-0002-fix-rpath.patch
 
